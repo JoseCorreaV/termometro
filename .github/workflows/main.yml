@@ -1,8 +1,0 @@
-name: Simple Echo
-on: [push]
-jobs:
-  print-name:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print name with echo
-      - run: echo "My primer Actions"
